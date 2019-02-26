@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /css
+Disallow: /dist
+Disallow: /node_modules

@@ -1,0 +1,157 @@
+/*responsiveness*/
+/*for tablet and desktop*/
+/*@media only screen and (min-device-width: 640px) {
+  .mobile{
+    display: none;
+  }
+}*/
+/*for mobile*/
+/*@media only screen and (max-device-width: 640px) {
+  p {
+    font-size: 2em;
+  }
+  .uk-text-meta{
+    font-size: 1.5em;
+  }
+  .uk-navbar-nav>li>a{
+    font-size: .6em;
+  }
+  h1 {
+    font-size: 6em;
+  }
+  h2,h3 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 3em;
+  }
+  span.text-number{
+    font-size: 3em;
+    margin-top: -5px;
+
+  }
+  span.text-number:after{
+    bottom: -5px;
+    left: 60px;
+  }
+  h4 {
+    font-size: 2.5em;
+  }
+  li {
+    font-size: 2em;
+  }
+  .tablet-desktop{
+    display: none;
+  }
+}*/
+
+
+/*background color*/
+.uk-background-primary{
+  background-color: #6BB98F;
+}
+
+.uk-text-success{
+  color: #6BB98F;
+}
+
+/*text*/
+.text-padding-left{
+  padding-left: 5px;
+}
+.text-primary, .uk-navbar-nav>li.uk-active>a {
+  color: #6BB98F;
+}
+a:hover {
+  color: rgba(107, 185, 143, 0.71);
+}
+
+.name-before{
+  width: 80px;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: -95px;
+  font-size: 2rem;
+  color: #EAEAEA;
+}
+
+.name-before:after {
+  content:"";
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid #6BB98F;
+  z-index: 9999;
+}
+
+/*print*/
+.pagebreak {
+  page-break-before: always;
+}
+
+@media print {
+  body {
+    width: 100%;
+  }
+}
+
+/*navigation*/
+.uk-navbar  {
+  z-index: 99999;
+}
+
+/*text description*/
+.text-description{
+  vertical-align: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+  background-color: yellow;
+}
+.text-contact{
+  vertical-align: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+}
+.text-description a{
+  color: inherit;
+}
+.text-description a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*headings*/
+.text-title{
+  margin-top: 0;
+}
+
+.text-number{
+  width: 80px;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -15px;
+  font-size: 2rem;
+  color: #EAEAEA;
+}
+
+.text-number:after {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid #6BB98F;
+  z-index: 9999;
+}
+
+/*font family*/
+body, a, .uk-navbar-nav>li>a{
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h5{
+  font-family: 'Lato', sans-serif;
+}
